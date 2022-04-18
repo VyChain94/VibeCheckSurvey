@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Vibe Check Survey</h1>
+    <div class="box">
+        <div class="content">
+        <h2 style="text-align: center; font-size: 1.56rem;">Tell us what raised your vibration today.</h2>
+        
+        <p><label for="name">Name:</label>
+        <input type="text" name="" id=""></p>
+        <p><label for="Email">Email</label>
+        <input type="text" name="" id=""></p>
+        
+        
+        <h3><label for="scale">On a scale of 1-10, how good did it feel?</label></h3>
+        <select name="scale" id="scale-select">
+            <option value="">-please choose an option-</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            
+        </select>
+
+        <div class="emotions"><h3>What emotions did you experience?</h3>
+            <!-- new skill -->
+            <p><label for="mood">Excited</label>
+            <input type="radio" name="emotions" id="Excited">
+            <label for="mood">Humbled</label>
+            <input type="radio" name="emotions" id="Humbled">
+            <label for="mood">Loved</label>
+            <input type="radio" name="emotions" id="Loved">
+            <label for="mood">Grateful</label>
+            <input type="radio" name="emotions" id="Grateful">
+            <label for="mood">Motivated</label>
+            <input type="radio" name="emotions" id="Motivated">
+            
+        </p>
+        </div>
+        <!-- new skill -->
+        <h3><label for="Location">Where did it happen?</label></h3>
+        <select name="location" id="location-select">
+        <option value="">-please choose an option-</option>
+        <option value="at home">at home</option>
+        <option value="at work">at work</option>
+        <option value="on the street">on the street</option>
+        <option value="during commute">during commute</option>
+        </select>
+
+        <div class="carry"><h3>Did you carry this vibration with you for the rest of the day?</h3>
+        <p><label for="Yes">Yes</label>
+        <input type="radio" name="carry" id="yes">
+        <label for="No">No</label>
+        <input type="radio" name="carry" id="no">
+        </p>
+        </div>
+       
+       
+       
+        <div class="time"><h3>What time of day?</h3>
+        <p><label for="time">Morning</label>
+            <input type="radio" name="time" id="Morning">
+            <label for="time">Afternoon</label>
+            <input type="radio" name="time" id="Afternoon">
+            <label for="time">Night</label>
+            <input type="radio" name="time" id="Night">
+        </p>
+        </div>
+
+    <div class="describe"><h3>Please describe your experience.</h3>
+        <!-- new skill -->
+        <label for="describe"></label>
+        <input type="text" name="describe" class="answer"
+        required minlength="1" maxlength="280"
+        size="20">
+    </div>
+
+    <div class="submit"><a class="link" href="#">Submit</a>
+    </div>
+
+    </div>
+    </div>
+    
+</body>
+</html>

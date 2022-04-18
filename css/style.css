@@ -1,0 +1,70 @@
+/* typography */
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.25rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+
+/* boxes */
+
+body{margin: auto;
+    background: lightgoldenrodyellow;
+    font-size: 18px;
+}
+
+.box{
+    float: none;
+    border-radius: 10%;
+    width:75%;
+    margin: auto;
+    background: powderblue;
+    text-align:justify;
+}
+
+.content{
+    position: relative;
+    left:20px;
+    padding: 40px 0;
+}
+
+
+
+/* links */
+
+
+.submit{
+    text-align: center;
+}
+
+.link{
+    display:inline-block;
+    font-size: 1.125rem;
+    background: navy;
+    padding: 10px 25px;
+    color:yellow;
+    text-decoration: none;
+    
+}
+
+a :focus, a:hover{
+    background:green;
+
+}
+
+.describe{
+    padding-bottom:2rem;
+}
+
+.answer{
+    min-height: 50px;
+    min-width: 200px;
+}

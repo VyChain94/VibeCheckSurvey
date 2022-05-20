@@ -56,8 +56,3 @@ a :focus, a:hover{
 .describe{
     padding-bottom:2rem;
 }
-
-.answer{
-    min-height: 50px;
-    min-width: 200px;
-}
